@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         });
         Button dateOfBirthBtn = findViewById(R.id.date_of_birth_btn);
         dateOfBirthBtn.setOnClickListener(view -> {
-            Intent intent = new Intent(this, DateOfBitrhActivity.class);
+            Intent intent = new Intent(this, DateOfBirthActivity.class);
             startActivity(intent);
         });
         Button teamBtn = findViewById(R.id.team_btn);

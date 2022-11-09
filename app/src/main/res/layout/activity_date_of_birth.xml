@@ -7,7 +7,7 @@
     android:layout_margin="8dp"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".DateOfBitrhActivity">
+    tools:context=".DateOfBirthActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

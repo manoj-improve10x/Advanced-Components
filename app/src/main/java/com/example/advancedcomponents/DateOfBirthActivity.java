@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-public class DateOfBitrhActivity extends AppCompatActivity {
+public class DateOfBirthActivity extends AppCompatActivity {
 
     public ArrayList<Integer> datesList;
     public ArrayList<String> monthsList;
@@ -20,7 +20,7 @@ public class DateOfBitrhActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_date_of_bitrh);
+        setContentView(R.layout.activity_date_of_birth);
         getSupportActionBar().setTitle("Date of Birth");
         setupDatesData();
         setupMonthsData();
@@ -154,7 +154,7 @@ public class DateOfBitrhActivity extends AppCompatActivity {
         dateSp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
-                Toast.makeText(DateOfBitrhActivity.this, "Date: " + datesList.get(position), Toast.LENGTH_SHORT).show();
+                Toast.makeText(DateOfBirthActivity.this, "Date: " + datesList.get(position), Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -171,7 +171,7 @@ public class DateOfBitrhActivity extends AppCompatActivity {
         monthSp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
-                Toast.makeText(DateOfBitrhActivity.this, "month: " + monthsList.get(position), Toast.LENGTH_SHORT).show();
+                Toast.makeText(DateOfBirthActivity.this, "month: " + monthsList.get(position), Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -188,7 +188,7 @@ public class DateOfBitrhActivity extends AppCompatActivity {
         yearSp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
-                Toast.makeText(DateOfBitrhActivity.this, "Year: " + yearsList.get(position), Toast.LENGTH_SHORT).show();
+                Toast.makeText(DateOfBirthActivity.this, "Year: " + yearsList.get(position), Toast.LENGTH_SHORT).show();
             }
 
             @Override
