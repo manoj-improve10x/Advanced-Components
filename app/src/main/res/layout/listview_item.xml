@@ -12,14 +12,14 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView15"
+            android:id="@+id/contact_name_txt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/textView16"
+            android:id="@+id/phone_number_txt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"

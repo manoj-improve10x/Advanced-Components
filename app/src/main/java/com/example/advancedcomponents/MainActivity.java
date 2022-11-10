@@ -44,5 +44,10 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this,TeamListActivity.class);
             startActivity(intent);
         });
+        Button contactsBtn = findViewById(R.id.contacts_btn);
+        contactsBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(this,ContactsActivity.class);
+            startActivity(intent);
+        });
     }
 }
